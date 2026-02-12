@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гусь Василий - Главная</title>
+    <style>
+        @import url('fonts/main_font.css');
+
+        * {
+            margin: 0;
+            font-family: 'StratosSkyeng', sans-serif;
+        }
+
+        .content {
+            background-size: cover;
+            min-height: 100vh;
+            padding-bottom: 40px;
+        }
+
+        .in-one-line {
+            display: flex;
+            gap: 32px;
+        }
+
+        .center {
+            padding-left: calc(50% - 500px);
+            padding-right: calc(50% - 500px);
+        }
+
+        /* Дополнительные стили для красоты */
+        body {
+            background: linear-gradient(145deg, #f9f3e8 0%, #fff9f0 100%);
+        }
+
+        h1 {
+            color: #2d5a27;
+            font-size: 48px;
+            margin-bottom: 8px;
+            padding-top: 40px;
+        }
+
+        h2 {
+            color: #4a7843;
+            font-size: 32px;
+            margin-bottom: 24px;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            color: #3a2c1b;
+        }
+
+        img {
+            border-radius: 24px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            max-width: 100%;
+            margin: 20px 0;
+        }
+
+        .in-one-line {
+            margin-top: 30px;
+            justify-content: center;
+        }
+
+        .in-one-line a {
+            background-color: #2d5a27;
+            color: white;
+            padding: 14px 28px;
+            text-decoration: none;
+            border-radius: 40px;
+            font-weight: 500;
+            font-size: 20px;
+            transition: 0.2s;
+            border: 2px solid #2d5a27;
+        }
+
+        .in-one-line a:hover {
+            background-color: white;
+            color: #2d5a27;
+        }
+    </style>
+</head>
+<body>
+    <div class="content center">
+        <!-- Заголовки двух уровней -->
+        <h1>Крутая личная страница</h1>
+        <h2>Гуся Василия</h2>
+
+        <!-- Два абзаца текста -->
+        <p>Привет. Это мой проект по изучению фронта, и в нём я хочу рассказать о себе крутые факты и потренировать мой код стайл.</p>
+        <p>На страничках ты найдешь много интересного: факты обо мне, любимые мемы и вдохновляющие цитаты. Добро пожаловать!</p>
+
+        <!-- Картинка из заготовки (гусь) -->
+        <img src="./images/goose.jpeg" alt="Гусь Василий" width="600">
+    </div>
+
+    <!-- Блок со ссылками-переходами на другие страницы -->
+    <div class="in-one-line center">
+        <a href="facts.html">Крутые факты</a>
+        <a href="memes.html">Мои любимые мемы</a>
+        <a href="quotes.html">Мои любимые цитаты</a>
+    </div>
+</body>
+</html>

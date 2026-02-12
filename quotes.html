@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цитаты Гуся Василия</title>
+    <style>
+        @import url('fonts/main_font.css');
+
+        * {
+            margin: 0;
+            font-family: 'StratosSkyeng', sans-serif;
+        }
+
+        .content {
+            background-size: cover;
+            min-height: 100vh;
+            padding-bottom: 40px;
+        }
+
+        .in-one-line {
+            display: flex;
+            gap: 32px;
+        }
+
+        .center {
+            padding-left: calc(50% - 500px);
+            padding-right: calc(50% - 500px);
+        }
+
+        body {
+            background: linear-gradient(145deg, #f1e6d5 0%, #e8d9c2 100%);
+        }
+
+        h1 {
+            color: #5e4b3c;
+            font-size: 48px;
+            margin-bottom: 40px;
+            padding-top: 40px;
+            text-align: center;
+        }
+
+        .quote-block {
+            background: rgba(255, 255, 255, 0.7);
+            padding: 30px;
+            border-radius: 40px;
+            font-size: 28px;
+            color: #3e2e24;
+            border-left: 12px solid #8f6b4f;
+            margin: 30px 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        .author {
+            font-size: 20px;
+            color: #6b4f3a;
+            margin-top: 16px;
+            text-align: right;
+            font-style: italic;
+        }
+
+        .in-one-line {
+            margin-top: 40px;
+            justify-content: center;
+        }
+
+        .in-one-line a {
+            background-color: #5e4b3c;
+            color: white;
+            padding: 14px 28px;
+            text-decoration: none;
+            border-radius: 40px;
+            font-weight: 500;
+            font-size: 20px;
+            transition: 0.2s;
+            border: 2px solid #5e4b3c;
+        }
+
+        .in-one-line a:hover {
+            background-color: white;
+            color: #5e4b3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="content center">
+        <!-- Один заголовок одного уровня -->
+        <h1>Мои любимые цитаты</h1>
+
+        <!-- Примеры цитат (для атмосферы) -->
+        <div class="quote-block">
+            «Быть гусем — значит быть свободным. В любой луже видеть море».
+            <div class="author">— Василий Великий</div>
+        </div>
+        <div class="quote-block">
+            «Не бойся шипеть — бойся молчать, когда важно».
+            <div class="author">— Гусь-философ</div>
+        </div>
+    </div>
+
+    <!-- Блок со ссылками-переходами на другие страницы (последовательность) -->
+    <div class="in-one-line center">
+        <a href="index.html">🏠 Главная</a>
+        <a href="facts.html">⬅️ Крутые факты</a>
+        <a href="memes.html">🖼️ Мои любимые мемы</a>
+    </div>
+</body>
+</html>
+
+

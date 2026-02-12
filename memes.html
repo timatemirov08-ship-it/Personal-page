@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мемы Гуся Василия</title>
+    <style>
+        @import url('fonts/main_font.css');
+
+        * {
+            margin: 0;
+            font-family: 'StratosSkyeng', sans-serif;
+        }
+
+        .content {
+            background-size: cover;
+            min-height: 100vh;
+            padding-bottom: 40px;
+        }
+
+        .in-one-line {
+            display: flex;
+            gap: 32px;
+        }
+
+        .center {
+            padding-left: calc(50% - 500px);
+            padding-right: calc(50% - 500px);
+        }
+
+        body {
+            background: linear-gradient(145deg, #fff3d6 0%, #ffeab3 100%);
+        }
+
+        h1 {
+            color: #b45f2e;
+            font-size: 48px;
+            margin-bottom: 40px;
+            padding-top: 40px;
+            text-align: center;
+        }
+
+        .memes-container {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .meme-item {
+            background: white;
+            padding: 20px;
+            border-radius: 24px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .meme-item img {
+            max-width: 300px;
+            border-radius: 16px;
+            display: block;
+        }
+
+        .in-one-line {
+            margin-top: 40px;
+            justify-content: center;
+        }
+
+        .in-one-line a {
+            background-color: #b45f2e;
+            color: white;
+            padding: 14px 28px;
+            text-decoration: none;
+            border-radius: 40px;
+            font-weight: 500;
+            font-size: 20px;
+            transition: 0.2s;
+            border: 2px solid #b45f2e;
+        }
+
+        .in-one-line a:hover {
+            background-color: white;
+            color: #b45f2e;
+        }
+    </style>
+</head>
+<body>
+    <div class="content center">
+        <!-- Один заголовок одного уровня -->
+        <h1>Мои любимые мемы</h1>
+
+        <!-- Картинки-мемы (из заготовки) -->
+        <div class="memes-container">
+            <div class="meme-item">
+                <img src="./images/hq720.jpg" alt="Курица в медовом соусе " width="300">
+            </div>
+            <div class="meme-item">
+                <img src="./images/meme1.jpeg" alt=" ЧеВо " width="300">
+            </div>
+            <div class="meme-item">
+                <img src="./images/meme2.jpeg" alt="Чилл-гусь" width="300">
+            </div>
+        </div>
+    </div>
+
+    <!-- Блок со ссылками-переходами на другие страницы (последовательность) -->
+    <div class="in-one-line center">
+        <a href="index.html">🏠 Главная</a>
+        <a href="facts.html">⬅️ Крутые факты</a>
+        <a href="quotes.html">➡️ Мои любимые цитаты</a>
+    </div>
+</body>
+</html>
